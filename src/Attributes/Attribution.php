@@ -35,34 +35,11 @@ trait Attribution
      */
     public function getA(StringType $name)
     {
-        if (!$this->hasAttribute($name)) {
+        if (!$this->hasA($name)) {
             throw new AttributesException("Attribute: {$name} does not exist");
         }
 
         return $this->attributes[$name()];
-    }
-
-    /**
-     * Set an attribute.  If it exists it will be replaced
-     *
-     * @param StringType $name Name of attribute to set
-     * @param Attribute  $attribute Attribute to set
-     *
-     * @return Attribution
-     */
-    public function setA(StringType $name, Attribute $attribute)
-    {
-        if ($this->hasAttribute($name)) {
-            $this->attributes = $this->attributes->filter(
-                function ($val, $key) use ($name) {
-                    return $key != $name();
-                }
-            );
-        }
-
-        $this->attributes = $this->attributes->append([$name() => $attribute]);
-
-        return $this;
     }
 
     /**

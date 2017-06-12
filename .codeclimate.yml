@@ -1,0 +1,23 @@
+---
+exclude_paths:
+- test/*
+- docs/*
+- vendor/*
+ratings:
+  paths:
+  - "**.php"
+engines:
+  phpmd:
+    enabled: true
+    checks:
+      Controversial/Superglobals:
+        enabled: false
+      CleanCode/StaticAccess:
+        enabled: false
+  phpcodesniffer:
+    enabled: true
+    checks:
+      PSR2 Methods FunctionCallSignature Indent:
+        enabled: false
+      Generic WhiteSpace ScopeIndent Incorrect:
+        enabled: false

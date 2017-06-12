@@ -24,16 +24,6 @@ interface Attributal
     public function getA(StringType $name);
 
     /**
-     * Set an attribute.  If it exists it will be replaced
-     *
-     * @param StringType $name Name of attribute to set
-     * @param Attribute  $attribute Attribute to set
-     *
-     * @return Attribution
-     */
-    public function setA(StringType $name, Attribute $attribute);
-
-    /**
      * @param StringType $name Name of attribute to check for
      *
      * @return bool
