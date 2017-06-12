@@ -5,15 +5,15 @@
 ![PHP 5.6](https://img.shields.io/badge/PHP-5.6-blue.svg)
 ![PHP 7](https://img.shields.io/badge/PHP-7-blue.svg)
 [![Build Status](https://travis-ci.org/chippyash/attributes.svg?branch=master)](https://travis-ci.org/chippyash/attributes.svg?branch=master)
-[![Test Coverage](https://codeclimate.com/github/chippyash/attributes/badges/coverage.svg)](https://codeclimate.com/github/chippyash/attributes/coverage)
-[![Code Climate](https://codeclimate.com/github/chippyash/attributes/badges/gpa.svg)](https://codeclimate.com/github/chippyash/attributes)
+[![Test Coverage](https://codeclimate.com/github/chippyash/attributes/badges/coverage.svg)](https://codeclimate.com/github/chippyash/attributes/badges)
+[![Code Climate](https://codeclimate.com/github/chippyash/attributes/badges/gpa.svg)](https://codeclimate.com/github/chippyash/attributes/badges)
 
 The above badges represent the current development branch.  As a rule, I don't push
  to GitHub unless tests, coverage and usability are acceptable.  This may not be
  true for short periods of time; on holiday, need code for some other downstream
  project etc.  If you need stable code, use a tagged version. Read 'Further Documentation'
  and 'Installation'.
- 
+
 ## What?
 
 Provides a very strongly typed, but simple, general purpose Attribute Container based 
