@@ -4,7 +4,7 @@
 
 ![PHP 5.6](https://img.shields.io/badge/PHP-5.6-blue.svg)
 ![PHP 7](https://img.shields.io/badge/PHP-7-blue.svg)
-[![Build Status](https://travis-ci.org/chippyash/attributes.svg?branch=master)](https://travis-ci.org/chippyash/attributes)
+[![Build Status](https://travis-ci.org/chippyash/attributes.svg?branch=master)](https://travis-ci.org/chippyash/attributes.svg?branch=master)
 [![Test Coverage](https://codeclimate.com/github/chippyash/attributes/badges/coverage.svg)](https://codeclimate.com/github/chippyash/attributes/coverage)
 [![Code Climate](https://codeclimate.com/github/chippyash/attributes/badges/gpa.svg)](https://codeclimate.com/github/chippyash/attributes)
 
@@ -182,7 +182,6 @@ This software library is Copyright (c) 2017, Ashley Kitson, UK
 A commercial license is available for this software library, please contact the author. 
 It is normally free to deserving causes, but gets you around the limitation of the GPL
 license, which does not allow unrestricted inclusion of this code in commercial works.
-
 
 ## History
 
