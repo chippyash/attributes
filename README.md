@@ -185,6 +185,7 @@ A commercial license is available for this software library, please contact the 
 It is normally free to deserving causes, but gets you around the limitation of the GPL
 license, which does not allow unrestricted inclusion of this code in commercial works.
 
+
 ## History
 
 V1.0.0 Initial Release
