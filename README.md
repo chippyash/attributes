@@ -146,7 +146,7 @@ Install [Composer](https://getcomposer.org/)
 #### For production
 
 <pre>
-    "chippyash/attributes": "~1"
+    "chippyash/attributes": ">=1,<2"
 </pre>
 
 Or to use the latest, possibly unstable version:
@@ -186,3 +186,5 @@ license, which does not allow unrestricted inclusion of this code in commercial 
 ## History
 
 V1.0.0 Initial Release
+
+V1.0.1 Update dependencies
