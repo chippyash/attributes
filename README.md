@@ -175,16 +175,14 @@ To run the tests:
 
 ## License
 
-This software library is released under the [GNU GPL V3 or later license](http://www.gnu.org/copyleft/gpl.html)
+This software library is released under the [BSD 3 Clause license](https://opensource.org/licenses/BSD-3-Clause)
 
 This software library is Copyright (c) 2017, Ashley Kitson, UK
-
-A commercial license is available for this software library, please contact the author. 
-It is normally free to deserving causes, but gets you around the limitation of the GPL
-license, which does not allow unrestricted inclusion of this code in commercial works.
 
 ## History
 
 V1.0.0 Initial Release
 
 V1.0.1 Update dependencies
+
+V1.1.0 Change of license from GPL V3 to BSD 3 Clause
