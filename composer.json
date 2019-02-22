@@ -1,0 +1,35 @@
+{
+  "name": "chippyash/attributes",
+  "description": "Monadic Attribute Maps",
+  "minimum-stability": "stable",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Ashle Kitson",
+      "email": "ashley@zf4.biz"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.6",
+    "chippyash/monad": ">=2,<3",
+    "chippyash/strong-type": ">=5,<6"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": ">=5.7,<6",
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Chippyash\\Attributes\\" : "src/Attributes"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Chippyash\\Stub\\" : "test/fixtures"
+    }
+  }
+}
